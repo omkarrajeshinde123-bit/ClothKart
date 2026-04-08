@@ -19,9 +19,20 @@ nav a {
   text-decoration: none;
 }
 
+.banner {
+  background: url('https://images.unsplash.com/photo-1523381210434-271e8be1f52b') center/cover;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .products {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   padding: 20px;
   gap: 20px;
 }
@@ -29,14 +40,21 @@ nav a {
 .card {
   background: white;
   padding: 10px;
-  border-radius: 8px;
+  border-radius: 10px;
   text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card img {
   width: 100%;
-  border-radius: 5px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 button {
@@ -46,6 +64,7 @@ button {
   padding: 8px 12px;
   cursor: pointer;
   margin-top: 10px;
+  border-radius: 5px;
 }
 
 button:hover {
