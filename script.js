@@ -2,7 +2,7 @@ const products = [
   {
     name: "Black T-Shirt",
     price: "₹499",
-    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+    image: "https://img.freepik.com/free-photo/simple-black-t-shirt-worn-by-man_53876-102772.jpg?semt=ais_hybrid&w=740&q=80"
   },
   {
     name: "Denim Jacket",
